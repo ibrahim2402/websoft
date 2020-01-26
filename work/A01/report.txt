@@ -1,0 +1,15 @@
+Q1: Did you before know about the techniques Git, GitHub, Markdown and/or GitHub Pages?
+
+Ans: Yes, i have ben working with these techniques since my inception in Hkr. That is to say, from the beginning of my Software Development program students were in a way mandatory to work the some of thee techniques for example Git and GitHub.
+
+Q2: Have you ever created websites before?
+
+Ans: Not really but in some way I have practice developing a webside with few elements.
+
+Q3:Briefly explain your experience and knowledge of web application development.
+
+Ans: I do not have much of experience in web application, however, my fundamental understanding is that there is need to learn how to use a some framework used for web development. Also is necessary to learn about HTML, CSS which are both one of the basic require knowledge. The structure in HTML is also key as well as the tags and elements.
+
+Q4: What is your TIL for this course section?
+
+Ans: In this section i have been able to pratice more with use of terminal for working with git commands; how to create new file, remote version and tag versions.
