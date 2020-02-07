@@ -1,0 +1,273 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  /*border: 2px solid orange;*/
+  /*width: 1200px;*/
+  color: black;
+}
+/* Utilities / Global */
+.wrapper {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  margin-bottom: 80px;
+}
+.wrapper h1 {
+  margin-top: 25px;
+}
+
+ul {
+  margin: 2px;
+  padding: 2px;
+}
+article#answer {
+  float: centre;
+  width: 65%;
+}
+
+.home-click {
+  height: 40px;
+  width: 150px;
+  background: #8099a8;
+  margin-bottom: 15%;
+  margin-top: 2%;
+  border: 0;
+  border-radius: 12%;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.home-click a {
+  color: white;
+  text-shadow: #8099a8;
+  font-size: 15px;
+}
+
+.dark {
+  padding: 15px;
+  background: #5d7b8d;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header {
+  background: #8099a8;
+  color: #ffffff;
+  padding-top: 40px;
+  min-height: 30px;
+  /*border-bottom: #e8491d 1px solid;*/
+}
+
+header a {
+  color: #f1f1f1;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  padding: 10px;
+}
+
+header li {
+  float: left;
+
+  padding: 0 10px 0 10px;
+}
+
+header #companyName {
+  float: left;
+  margin-top: 45px;
+}
+
+header #companyName h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight,
+header .navHeader a {
+  color: #854736;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/* Main-col */
+article#info_column {
+  float: left;
+  width: 45%;
+}
+aside#do_sidebar {
+  float: right;
+  width: 70%;
+  margin-top: 10px;
+}
+
+.name li {
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+.container {
+  width: 80%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 500px 700px 1fr;
+  grid-template-areas:
+    ". name name ."
+    ". me myPhoto ."
+    ". me myPhoto ."
+    ". image education ."
+    ". image education ."
+    ". image skill .";
+}
+
+.name {
+  grid-area: name;
+}
+.name {
+  border-bottom: 1px dashed orange;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 5px 5px;
+}
+.name h1 {
+  color: orange;
+  font: bold 35px Georgia, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+.courseName h1 {
+  color: rgb(51, 48, 43);
+  font: bold 35px Georgia, Helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+#homeContent h2 {
+  color: rgb(51, 48, 43);
+  font: bold 35px Georgia, Helvetica, sans-serif;
+  font-style: italic;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.me {
+  grid-area: me;
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 5px 5px;
+}
+.me p {
+  text-align: left;
+  margin-bottom: 0.8em;
+}
+.hkrImage {
+  grid-area: hkrImage;
+}
+.wrapper img {
+  width: 65%;
+  margin-bottom: 5%;
+  margin-left: -35%;
+  box-shadow: #f4f4f4;
+  /*border: 2px solid orange;*/
+}
+
+.myPhoto {
+  grid-area: myPhoto;
+}
+.myPhoto img {
+}
+
+.image {
+  grid-area: image;
+}
+.image img {
+  width: 80%;
+  border: 2px solid orange;
+}
+.education {
+  grid-area: education;
+}
+.education li {
+  text-align: left;
+}
+.skill {
+  grid-area: skill;
+}
+.skill li {
+  text-align: left;
+}
+
+.container div:nth-child(even) {
+}
+.container div:nth-child(odd) {
+}
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #4b8843;
+  text-align: center;
+}
+
+.contact-title {
+  margin-top: 100px;
+  color: orange;
+  text-transform: uppercase;
+  transition: all 4s ease-in-out;
+}
+.contact-title h1 {
+  font-size: 32px;
+  line-height: 10px;
+}
+.contact-title h2 {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+}
+.form-content {
+  width: 50%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  color: black;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+form .form-submit {
+  background: orange;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+form .form-submit:hover {
+  background-color: #f44336;
+  cursor: pointer;
+}
