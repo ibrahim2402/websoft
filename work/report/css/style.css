@@ -29,6 +29,15 @@ article#answer {
   float: centre;
   width: 65%;
 }
+.distortion {
+  height: 100px;
+  width: 150px;
+}
+.land {
+  display: flex;
+  justify-content: space-around;
+  height: 25vh;
+}
 
 .home-click {
   height: 40px;
@@ -164,17 +173,22 @@ aside#do_sidebar {
   margin-top: 2%;
   margin-bottom: 2%;
 }
-th, td, p, input {
-  font:14px Verdana;
+th,
+td,
+p,
+input {
+  font: 14px Verdana;
 }
-table, th, td {
-  border: solid 1px #DDD;
+table,
+th,
+td {
+  border: solid 1px #ddd;
   border-collapse: collapse;
   padding: 2px 3px;
   text-align: center;
 }
 th {
-  font-weight:bold;
+  font-weight: bold;
 }
 
 .me {
