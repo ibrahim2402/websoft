@@ -164,6 +164,18 @@ aside#do_sidebar {
   margin-top: 2%;
   margin-bottom: 2%;
 }
+th, td, p, input {
+  font:14px Verdana;
+}
+table, th, td {
+  border: solid 1px #DDD;
+  border-collapse: collapse;
+  padding: 2px 3px;
+  text-align: center;
+}
+th {
+  font-weight:bold;
+}
 
 .me {
   grid-area: me;
