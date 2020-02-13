@@ -38,10 +38,151 @@ article#answer {
   justify-content: space-around;
   height: 25vh;
 }
+.containerHm {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.slider-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
 
+.slider-container > div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.webdev {
+  position: relative;
+  overflow: hidden;
+}
+.webdev img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+.slider-container > div > div {
+  overflow: hidden;
+  box-shadow: 0 0 61px 0 rgba(0, 0, 0, 0.62);
+}
+
+.slider {
+  width: 800px;
+  height: 450px;
+  display: grid;
+  grid-template-columns: repeat(5, 100%);
+}
+.content {
+  position: absolute;
+  width: 800px;
+  height: 450px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+.content:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 17%;
+  width: 100%;
+  left: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8));
+}
+.btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 1rem 1.2rem;
+  border-radius: 5px;
+  background-color: #ddd;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 3s;
+}
+#prev {
+  left: 5%;
+}
+#next {
+  right: 5%;
+}
+.btn:hover {
+  opacity: 1.8;
+}
+.content ul {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  list-style: none;
+  display: flex;
+}
+.content ul li {
+  width: 18px;
+  height: 18px;
+  margin: 3rem;
+  border: 2.5px solid #12b0bb;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.content ul li.colored {
+  background-color: #12b0bb;
+}
+/*.slider {
+  width: 200%;
+  height: 450%;
+  display: flex;
+  grid-template-columns: repeat(5, 100%);
+
+  transform: translateX(-550px);
+}
+.slider-container > div > div {
+  overflow: hidden;
+  box-shadow: 0 0 61px 0 rgba(0, 0, 0, 0.62);
+}
+.slider webdev {
+  position: absolute;
+}
+*/
+#infoFlag {
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
 .home-click {
   height: 40px;
-  width: 150px;
+  width: 200px;
+  background: #8099a8;
+  margin-bottom: 0%;
+  margin-top: 2%;
+  border: 0;
+  border-radius: 12%;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+.list-click {
+  height: 40px;
+  width: 200px;
   background: #8099a8;
   margin-bottom: 15%;
   margin-top: 2%;
@@ -56,6 +197,26 @@ article#answer {
   color: white;
   text-shadow: #8099a8;
   font-size: 15px;
+}
+#back-to-top-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  background-color: #0f0f0f;
+  color: #4b8843;
+  cursor: pointer;
+  outline: none;
+  border-radius: 50%;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-property: background-color, color;
+}
+#back-to-top-btn:hover {
+  background-color: #f44336;
+  color: #f1f1f1;
 }
 
 .dark {
@@ -165,6 +326,17 @@ aside#do_sidebar {
   font-style: italic;
   margin-top: 5%;
   margin-bottom: 2%;
+}
+
+#homeContent {
+  margin-bottom: 2%;
+}
+#homeContent1 {
+  margin-bottom: 5%;
+}
+
+#homeContent2 {
+  margin-bottom: 21%;
 }
 #homeContent h2 {
   color: rgb(51, 48, 43);
@@ -296,4 +468,57 @@ form .form-submit {
 form .form-submit:hover {
   background-color: #f44336;
   cursor: pointer;
+}
+
+#shape {
+  width: 80px;
+  height: 100px;
+  background-image: url(../img/kristiansta-logo.png);
+  background-size: 80px;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+}
+.wrapperFlag {
+  position: relative;
+  overflow: hidden;
+  margin-top: 200px;
+}
+.flag {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.part {
+  width: 75px;
+  height: 175px;
+  float: left;
+}
+
+.vertical-menu {
+  width: 200px;
+  margin-top: 150px;
+
+  left: 50%;
+  transform: translateX(50%);
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.activeC {
+  background-color: #8099a8;
+  color: offWhite;
 }
