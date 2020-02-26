@@ -1,37 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Software Development for the Web | Report</title>
-    <link rel="stylesheet" href="css/style.css" />
-    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
-  </head>
-  <body>
-    <header>
-      <div class="wrapper">
-        <div id="companyName">
-          <h1>
-            <span class="highlight">Software development</span> for the Web
-          </h1>
-        </div>
-        <nav>
-          <a href="me.html">CV</a>
-          <a href="../../index.html">HOME</a>
-          <a href="flag.html">FLAG</a>
-          <a href="report.html"> <span class="highlight">REPORT</span></a>
-          <a href="school.html">NAME LIST</a>
+<?php require 'view/header.php'; ?>
 
-          <a href="contact_form.html">CONTACT ME</a>
-          <a href="http://localhost:1337">LOTTO</a>
-        </nav>
-      </div>
-    </header>
-    <button id="back-to-top-btn">
+<button id="back-to-top-btn">
       <i class="far fa-arrow-alt-circle-up"></i>
     </button>
     <div class="land">
-      <div class="distortion">Image transition: Open with live server</div>
+      <div class="distortion">Image transition:</div>
     </div>
     <div>
       <img
@@ -301,27 +274,5 @@ What is your TIL for this course section?
       </div>
     </section>
 
-
-    <footer>
-      <p>City CarCare Website, Copyright &copy; 2019</p>
-    </footer>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"
-      integrity="sha256-lPE3wjN2a7ABWHbGz7+MKBJaykyzqCbU96BJWjio86U="
-      crossorigin="anonymous"
-    ></script>
-
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"
-      integrity="sha256-gSh8eotzb/CVvCREGPUNgIWuDnTYnZvVOQnRrP1eDjI="
-      crossorigin="anonymous"
-    ></script>
-
-    <script src="js/hover.js" type="text/javascript"></script>
-    <script src="js/trans.js" type="text/javascript"></script>
-
-    <script src="js/obj.js" type="text/javascript"></script>
-    <script src="js/backtop.js" type="text/javascript"></script>
-  </body>
-</html>
+    
+    <?php  require 'view/footer.php'?>

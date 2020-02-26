@@ -8,6 +8,7 @@ $statement-> execute([':id' => $id]);
 $member = $statement -> fetch(PDO::FETCH_OBJ);
 //$message = '';
 
+
 if(isset($_POST['name']) && isset($_POST['email'])){
 
 	//echo "Data Submitted Successful";

@@ -34,8 +34,8 @@ article#answer {
   width: 65%;
 }
 .distortion {
-  height: 100px;
-  width: 150px;
+  height: 150px;
+  width: 200px;
 }
 .land {
   display: flex;
@@ -279,6 +279,21 @@ header a:hover {
 }
 
 /* Main-col */
+
+article#home_column p {
+  font-size: 20px;
+  color: #0f0f0f;
+}
+article#home_column {
+  /*width: 75%;
+  align-content: center;*/
+  position: relative;
+  margin: 0 auto;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 30px;
+  color: #588d51;
+}
 article#info_column {
   float: left;
   width: 45%;
@@ -294,7 +309,7 @@ aside#do_sidebar {
   padding: 0 10px 0 10px;
 }
 .container {
-  width: 80%;
+  width: auto;
   height: auto;
   display: grid;
   grid-template-columns: repeat(

@@ -32,6 +32,15 @@
       <li class="nav-item">
         <a class="nav-link" href="search.php">Search Member</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" href="report.php">Report</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="me.php">ME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.php">About</a>
+      </li>
       
     </ul>
    
