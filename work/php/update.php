@@ -2,10 +2,12 @@
 require 'db.php';
 
 $id = $_GET['id'];
-$sql = 'SELECT * FROM crudtable WHERE id = :id';
+$sql = "SELECT * FROM crudtable WHERE id = :id";
 $statement = $connection-> prepare($sql);
 $statement-> execute([':id' => $id]);
 $member = $statement -> fetch(PDO::FETCH_OBJ);
+
+$nawar = "Nawar";
 //$message = '';
 
 
@@ -47,12 +49,12 @@ if(isset($_POST['name']) && isset($_POST['email'])){
 
     	<div class="form-group">
     		<label for="name"> NAME </label>
-    		<input value = "<?php $member->name;  ?>" type="text" name="name" id="name" class="form-control">	
+    		<input value="<?= $member->name; ?>" type="text" name="name" id="name" class="form-control">	
     	</div>
 
     	<div class="form-group">
     		<label for="email"> EMAIL </label>
-    		<input value = "<?php $member->email;  ?>" type="email" name="email" id="email" class="form-control">	
+    		<input value="<?= $member->email;  ?>" type="email" name="email" id="email" class="form-control">	
     	</div>
     	<div class="form-group">
     		<button type="submit" class="btn-btn-info">Submit Update</button>	

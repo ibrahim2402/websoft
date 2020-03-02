@@ -13,7 +13,9 @@ if ($statement-> execute([':name' => $name, ':email' => $email])) {
 
 		$message = 'Data inserted successfull';
 	}
+	//$statement::disconnect();
 }
+
 ?>
 <?php require 'header.php'; ?>
 

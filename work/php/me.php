@@ -3,6 +3,7 @@
 <div class="container">
       <div class="name">
         <h1>Olakunle Ibrahim</h1>
+        <h2>Resume</h2>
       </div>
       <div class="me">
         <h1>About me</h1>
