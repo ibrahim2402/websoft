@@ -7,7 +7,6 @@ $statement = $connection-> prepare($sql);
 $statement-> execute([':id' => $id]);
 $member = $statement -> fetch(PDO::FETCH_OBJ);
 
-$nawar = "Nawar";
 //$message = '';
 
 

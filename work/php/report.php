@@ -272,6 +272,102 @@ What is your TIL for this course section?
           </div>
         </aside>
       </div>
+
+      <div class="wrapper">
+        <article id="info_column">
+        <div class="assign-title">
+          <h1> Assignement 7</h1>
+        <hr></hr>
+        </div> 
+          <h1 class="page-title">Question</h1>
+          <p class="white">
+          Install .NET Core SDK and C# (Links to an external site.). 
+          Do the coding exercise “Build applications using C# and ASP.NET 
+          Core (Links to an external site.)”. Write your report by answering 
+          and reflecting on these questions. Write freely, between 15 to 30  
+          sentences. Try to explain the platform .NET (C#, ASP.NET) 
+          to a skilled programmer, but newbie to this Microsoft technology.
+          Elaborate by comparing .NET technologies with the other technologies we learned during the course.
+          Describe how you took on the coding exercise, 
+          what grade did you aim for and are you satisfied with the result? 
+          What is your TIL for this course section?
+          </p>
+        </article>
+
+        <aside id="do_sidebar">
+          <div class="dark">
+            <h3>Answer</h3>
+            Programming language popularity assessment comeswith diverse 
+            opinions and interest. This discussion has been around for long with 
+            different perspective using different yardstick to measure the 
+            popularity of all the program widely used languages. 
+            I think it depend on which area ofdivide one is standing and 
+            how familiar you are with any of the language. 
+            We should not also forget that interest on a particular language 
+            can driven by learning outcome of a particular programming language. 
+            For example, as a studentin HKR we started with Java programming language, 
+            and that in a way had shaped most of the student’s opinion and interest. 
+            Until we are introduced to other fewlanguages in the course of study, 
+            however, the first impression feels that Java seems better 
+            than most of other language. Pertinently, at this point my opinionand 
+            recommendation is that Javascript is the most populous due to the 
+            fact thatmore people are into web and app development if compare with 
+            other programmingprofessions, and the Javascript language is less 
+            complicate and easy to learn. Today,more frameworks are being develop 
+            which they are made to fit and work with Javascript and this is in 
+            return increasing the attention of more developer and new comers towards it. 
+            Learning Javascript does not necessarily require anycoding experience and 
+            this is also making it widely acceptable by many and alot of people 
+            venture into it.  
+          </div>
+        </aside>
+      </div>
+
+      <div class="wrapper">
+        <article id="info_column">
+        <div class="assign-title">
+          <h1> Assignement 8</h1>
+        <hr></hr>
+        </div> 
+          <h1 class="page-title">Question</h1>
+          <p class="white">
+          Analyse a set of websites from the aspect of performance and 
+          elaborate on your findings. Here is the instruction (Links to an external site.).
+          Answer the following question and add it to your report.
+          What is your TIL for this course section?
+          </p>
+        </article>
+
+        <aside id="do_sidebar">
+          <div class="dark">
+            <h3>Answer</h3>
+            I chose HKR website and 2 e-commerce websites ( miinto and boozt – 
+            couple with the fact that it is also the type of website we are 
+            building for the course project ) in order to compare the 
+            performance of these e-commerce website since both are 
+            offering same services and check for differences in terms of 
+            competition among them and if any drawbacks can be identified. 
+            The reason for HKR website is to understand and compare the 
+            performance of a commercial website with that of university 
+            to be able to draw line between the 2 different entity on 
+            their functionality. I have learnt how to check the performance 
+            of a website which is a great step that will help in 
+            designing and development.
+            <h3><span class="highlight">Overall analysis and recommendation</span></h3>
+            <ul>
+            <li>Optimizing image quality and size by using a standard web size.</li>
+            <li>Minimize third party involvement as much as possible to reduce long loading time</li>
+            <li>Avoid or remove unused CSS that cause extra loading time.</li>
+            <li>To use HTTP2 instead of HTTP1.1</li>
+            <li>To avoid using JavaScript libraries that are prone to security vulnerabilities.</li>
+            <li>Ensure using a well standard and popular certified framework </li>
+            </ul>
+
+          </div>
+        </aside>
+      </div>
+
+      
     </section>
 
     
