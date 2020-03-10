@@ -1,23 +1,27 @@
-<?php require 'view/header.php'; ?>
-
 <?php 
 
 $file = 'webvalidate.pdf';
-//$filename = 'webvalidate.pdf';
+$filename = 'webvalidate.pdf';
+
 header('Content-type: application/pdf');
 header('Content-Disposition: inline; filename = " '. $file .' "');
 header('Content-Transfer-Encoding: binary');
 header('Accept-Ranges: bytes');
 @readfile($file);
 
-/* require( 'webvalidate.pdf' );
+/*
+// To download the pdf format
+if(file_exists($file)){
 
-    $pdf = new  PdfToText( );
-    $pdf->Options = PdfToText::PDFOPT_DECODE_IMAGE_DATA;
-    $pdf->Load( $argv [1] );
-    echo $pdf->Text ;
- */
+    header('Content-Description: File Transfer');
+    header('Content-Type: application/octet-stream');
+    header('Content-Disposition: attachment; filename="'.basename($file).'"');
+    header('Expires: 0');
+    header('Cache-Control: must-revalidate');
+    header('Pragma: public');
+    header('Content-Length: ' . filesize($file));
+    readfile($file);
+
+    exit;
+}*/
 ?>
-
-
-<?php  require 'view/footer.php'?>

@@ -362,9 +362,12 @@ What is your TIL for this course section?
             <li>To avoid using JavaScript libraries that are prone to security vulnerabilities.</li>
             <li>Ensure using a well standard and popular certified framework </li>
             </ul>
-            The websites validation can be find here <a style="font-size: 15px; font-weight: italic;"
+            The websites analysis and the dataset can be find here <a style="font-size: 15px; font-weight: italic;"
     href="https://docs.google.com/spreadsheets/d/15K0Bl-1IFe3DePhzftR7D0xNE7NOV6Q9slDf8gsVEUw/edit#gid=0"
     >Google sheets
+  </a> | <a style="font-size: 15px; font-weight: italic;"
+    href="pdf.php"
+    >Read PDF
   </a>
 
           </div>
