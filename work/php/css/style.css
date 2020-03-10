@@ -149,6 +149,7 @@ article#answer {
 .content ul li.colored {
   background-color: #12b0bb;
 }
+
 /*.slider {
   width: 200%;
   height: 450%;
@@ -229,6 +230,12 @@ article#answer {
   color: #ffffff;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.dark ul li {
+  text-align: left;
+}
+.dark .highlight {
+  color: #552d22;
 }
 
 header {

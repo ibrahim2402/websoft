@@ -362,11 +362,86 @@ What is your TIL for this course section?
             <li>To avoid using JavaScript libraries that are prone to security vulnerabilities.</li>
             <li>Ensure using a well standard and popular certified framework </li>
             </ul>
+            The websites validation can be find here <a style="font-size: 15px; font-weight: italic;"
+    href="https://docs.google.com/spreadsheets/d/15K0Bl-1IFe3DePhzftR7D0xNE7NOV6Q9slDf8gsVEUw/edit#gid=0"
+    >Google sheets
+  </a>
 
           </div>
         </aside>
       </div>
+      <div class="wrapper">
+        <article id="info_column">
+        <div class="assign-title">
+          <h1> Assignement 9</h1>
+        <hr></hr>
+        </div> 
+          <h1 class="page-title">Question</h1>
+          <p class="white">
+          Answer, or reflect upon, the following questions. Write freely, 
+            between 15 to 30  sentences. Elaborate on a few (3-5) different 
+            security issues or concerns, from your own experience, related 
+            to web application security and relate them to the OWASP top ten. 
+            Summarize by providing your own guidelines to a new web programmer 
+            on the topic “The essential guidelines to follow to create 
+            secure web applications”. What is your TIL for this course section?
+          </p>
+        </article>
 
+        <aside id="do_sidebar">
+          <div class="dark">
+            <h3>Answer</h3>
+            Several different security issues and challenges around web application 
+            security has continued to attract attention as a result of increase 
+            in the number of hackers and attackers. To discuss a few among these 
+            web application menace according to OWASP Top 10 Vulnerabilities, are;</br>
+            <h4> <span class="highlight"> Broken authentication: </span></h4> Is one major vulnerability that attackers have 
+            always exploit to gain access to individual or company users account due 
+            to negligence on the part of some users. The campaign for authentication 
+            protection and strong password for users has been a consistent effort 
+            in so many quarters in order to encourage system users to have a strong 
+            authentication method so as to protect their account or system from being attack. 
+            A web application can suffer broken authentication if the web application become 
+            vulnerable when; it allows automated attacks like credential stuffing, 
+            weak for brute force, using weak password recovery method, use weak 
+            encrypted method and so on.</br>
+            <h4><span class="highlight"> Sensitive data exposure:</span></h4> Is another widespread web application security challenge. 
+            A lot of system users both as individual or as organization have directly or 
+            indirectly, knowingly or unintentionally exposed their sensitive data some of 
+            which includes; credit card details, private credential, medical information, 
+            social security numbers etc., on web and this has given attackers the opportunity 
+            to manipulate peoples data and give rise to identity theft.</br>
+            <h4><span class="highlight"> Broken access control:</span></h4> This type of web application vulnerabilities is also a major 
+            concern and challenges to especially companies. For many years, some companies allow 
+            visitors to its website administrative panel and database through login page. 
+            This type of implementation approach has exposed many companies to danger 
+            and open up its storage to attacks.
+            <h3> <span class="highlight">"Essential guidelines to follow to create secure web applications":</span></h3>
+            There are certain measure that can be put in place to ensure web application security.
+            Some few approaches are discussed below.
+            <ul>
+              <li>A multi factor authentication is a good way to strengthen account security. 
+            A single authentication had been seen not to be a good method, since two-factor 
+            solution is proving better and it can be made even more than two factors.
+            A cross site forgery can be prevented if web developer and programmers explore 
+            more of cryptographic token usage which user will use and require to re authenticate 
+            before completing any form of transaction.</li>
+              <li>Password change security design is another way to minimize attacks and discourage 
+            attackers from attacking an account or a system. If a system is deployed with 
+            identity validation and security questions by sending a generated token to user 
+            via out-of-band method and requesting user to verify with enforcing a logout policy.</li>
+              <li>Secure password storage will ensure to protect account from vulnerability especially 
+            SQL injection and brute force. To combine several major techniques such as a one-way 
+            algorithm, use a salt encryption method and to use algorithm which is purposely slow. 
+            This approach can actually reduce drastically attacks on the web application.</li>
+            <li>Query parameterization technique is another step that can prevent SQL injection 
+            vulnerability. Developers needs to prevent untrusted input pretending as 
+            statement and could be interpreted as syntax for SQL command.</li>
+            </ul>
+ 
+          </div>
+        </aside>
+      </div>
       
     </section>
 
