@@ -1,4 +1,4 @@
-create database crud;
+/* create database crud;
 use crud;
 
 create table crudtable(
@@ -6,4 +6,4 @@ create table crudtable(
 	name varchar(30) not null,
 	email varchar(30) not null
 
-);
+); */
