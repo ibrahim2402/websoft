@@ -57,7 +57,7 @@
       <div class="wrapper">
         <article id="info_column">
         <div class="assign-title">
-          <h1> Assignement 2</h1>
+          <h1> Assignment 2</h1>
         <hr></hr>
         </div>  
         
@@ -102,7 +102,7 @@
       <div class="wrapper">
         <article id="info_column">
         <div class="assign-title">
-          <h1> Assignement 3</h1>
+          <h1> Assignment 3</h1>
         <hr></hr>
         </div> 
 
@@ -131,7 +131,7 @@
             data from Api system. I practice with querySelector that helps in
             styling HTML through .js file instead of of usig CSS. I have also
             learnt some transition of images with hover effect using some
-            libraries. I aimed for the highest grade in this assignment.
+            libraries. I aimed for the highest grade (5) in this assignment.
           </div>
         </aside>
       </div>
@@ -139,7 +139,7 @@
       <div class="wrapper">
         <article id="info_column">
         <div class="assign-title">
-          <h1> Assignement 4</h1>
+          <h1> Assignment 4</h1>
         <hr></hr>
         </div> 
           <h1 class="page-title">Question</h1>
@@ -164,11 +164,11 @@ What is your TIL for this course section?
             Installation is quite simple with option to run it globally or 
             just on the project/ working folder. At first I tried to separate 
             both css file and javascript file but I was getting some error issue. 
-            Then i decided to have all these file created in the html file 
+            Then I decided to have all these file created in the html file 
             which its working perfectly. And for the coding I used j
             avascript in-built Math class with the floor and random methods 
             to generate the lottery numbers. I aimed for the highest grade 
-            in this assignment. I learnt about Node.js and Express.js as a 
+            in this assignment however think i manage to finish with grade 4. I learnt about Node.js and Express.js as a 
             standard server framework with npm functionality which I agree are 
             beneficiary to know about them.
 
@@ -179,7 +179,7 @@ What is your TIL for this course section?
       <div class="wrapper">
         <article id="info_column">
         <div class="assign-title">
-          <h1> Assignement 5</h1>
+          <h1> Assignment 5</h1>
         <hr></hr>
         </div> 
           <h1 class="page-title">Question</h1>
@@ -218,7 +218,7 @@ What is your TIL for this course section?
             This assignement has help to betterunderstand how application 
             can be run using PHP as server in order to test theapplication 
             for efficiency and performance before launch for publicconsumption. 
-            I aimed for highest grade in this assignment.
+            I aimed for highest grade (5) in this assignment.
           </div>
         </aside>
       </div>
@@ -226,7 +226,7 @@ What is your TIL for this course section?
       <div class="wrapper">
         <article id="info_column">
         <div class="assign-title">
-          <h1> Assignement 6</h1>
+          <h1> Assignment 6</h1>
         <hr></hr>
         </div> 
           <h1 class="page-title">Question</h1>
@@ -276,7 +276,7 @@ What is your TIL for this course section?
       <div class="wrapper">
         <article id="info_column">
         <div class="assign-title">
-          <h1> Assignement 7</h1>
+          <h1> Assignment 7</h1>
         <hr></hr>
         </div> 
           <h1 class="page-title">Question</h1>
@@ -297,28 +297,40 @@ What is your TIL for this course section?
         <aside id="do_sidebar">
           <div class="dark">
             <h3>Answer</h3>
-            Programming language popularity assessment comeswith diverse 
-            opinions and interest. This discussion has been around for long with 
-            different perspective using different yardstick to measure the 
-            popularity of all the program widely used languages. 
-            I think it depend on which area ofdivide one is standing and 
-            how familiar you are with any of the language. 
-            We should not also forget that interest on a particular language 
-            can driven by learning outcome of a particular programming language. 
-            For example, as a studentin HKR we started with Java programming language, 
-            and that in a way had shaped most of the student’s opinion and interest. 
-            Until we are introduced to other fewlanguages in the course of study, 
-            however, the first impression feels that Java seems better 
-            than most of other language. Pertinently, at this point my opinionand 
-            recommendation is that Javascript is the most populous due to the 
-            fact thatmore people are into web and app development if compare with 
-            other programmingprofessions, and the Javascript language is less 
-            complicate and easy to learn. Today,more frameworks are being develop 
-            which they are made to fit and work with Javascript and this is in 
-            return increasing the attention of more developer and new comers towards it. 
-            Learning Javascript does not necessarily require anycoding experience and 
-            this is also making it widely acceptable by many and alot of people 
-            venture into it.  
+            .NET (ASP.NET and C#),a MicroSoft framework is developer platform 
+            like many others, made up of tools, programming language and libraries 
+            use for different kind of application. .NET as a base platform 
+            incorporate another framework called ASP.NET 
+            (meaning ASP.NET extends .NET). The languages used are C#, F# and Visual Basic 
+            Praogramming languages. Its editors and tools for MacOS, Windows, Linux and Docker. 
+            On the FrontEnd there is web-page template syntax called Razor, 
+            which is used for create dynamic web page using HTML and C#. 
+            The client-side code is writing in JavaScript while the ASP.NET 
+            integrate with JavaScript framework like React, Angular etc. 
+            On the BackEnd, the business logic and data access are written 
+            in either of C#, F# and Visual Basic. The C# codes is evaluated 
+            on the server and then use the HTML to present content to the User.
+            <h3> <span class="highlight"> Some of the advantages of using :NET framework are;</span><h3>
+
+            <ul>
+            <li>Enhance support for asychronous programming.</li>
+            <li>Suport for HTML5 form type.</li>
+            <li>Support for websockets.</li>
+            <li>Easy integration with other MicroSoft applications.</li>
+            <li>ASP.NET Web API helps to build and consume http services easily.</li>
+            <li>Strongly Typed Data Control. </li>
+            <li>Support for OpenID and OAuth Logins.</li>
+            <li>Stability and Scalability.</li>
+            <li>Security.</li>
+            </ul>
+            I managed to grasp some of the basic in .NET core (C#, ASP.NET) 
+            due to previous knowledge in Java. 
+            It is save to say that the correlation between the languages are someworth 80% - 90%. 
+            Which then means that with a knowledge of Java programming language 
+            developer can easily understand C# programming. Moreover, 
+            I have learnt how to use ASP.NET API with C# for data request and 
+            response.  I aimed for grade 4 in this exercise.   
+  
           </div>
         </aside>
       </div>
@@ -326,7 +338,7 @@ What is your TIL for this course section?
       <div class="wrapper">
         <article id="info_column">
         <div class="assign-title">
-          <h1> Assignement 8</h1>
+          <h1> Assignment 8</h1>
         <hr></hr>
         </div> 
           <h1 class="page-title">Question</h1>
@@ -376,7 +388,7 @@ What is your TIL for this course section?
       <div class="wrapper">
         <article id="info_column">
         <div class="assign-title">
-          <h1> Assignement 9</h1>
+          <h1> Assignment 9</h1>
         <hr></hr>
         </div> 
           <h1 class="page-title">Question</h1>
