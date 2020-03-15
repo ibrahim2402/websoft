@@ -17,13 +17,21 @@ const app = express();
 const port = process.env.PORT || "1337"; //specified port
 
 
-app.get("/", (req, res) => {
+/*app.get("/", (req, res) => {
     res.status(200).sendfile('lottery.html');
+});*/
+
+app.get("/", (req, res) => {
+    res.status(200).sendfile('lotto.html');
 });
 
 app.get("/", (req, res) => {
-    res.status(200).sendfile('../../report/css/style.css');
+    res.status(200).sendfile('lotto.css');
 });
+
+/*app.get("/", (req, res) => {
+    res.status(200).sendfile('../../report/css/style.css');
+});*/
 
 // Node Server Ready 
 var server = app.listen(5000, function () {

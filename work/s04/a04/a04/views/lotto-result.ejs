@@ -1,0 +1,113 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Lottery Game | NodeJs
+  </title>
+  <link rel="icon" href="favicon.ico" />
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial;
+      font-size: 17px;
+    }
+
+    .container {
+      position: relative;
+      width: 1200px;
+      margin: 0 auto;
+    }
+
+    .container img {
+      vertical-align: middle;
+    }
+
+    .container .content {
+      position: absolute;
+      bottom: 0;
+      background: rgb(0, 0, 0);
+      /* Fallback color */
+      background: rgba(0, 0, 0, 0.5);
+      /* Black background with 0.5 opacity */
+      color: #f1f1f1;
+      width: 100%;
+      padding: 20px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2> Lottery Game RESULT</h2>
+  <div class="container">
+    <img src="imgNode/lotto-image.jpg" style="width:100%" ;></img>
+
+
+    <div class="content">
+      <h1>Lotto draft: </h1>
+
+      <p>
+        <table>
+          <tr>
+            <th>1.</th>
+            <th>2.</th>
+            <th>3.</th>
+            <th>4.</th>
+            <th>5.</th>
+            <th>6.</th>
+            <th>7.</th>
+          </tr>
+          <tr>
+            <% for (var i = 0; i < draft.length ; i++) { %>
+            <%if (draft[i] == guess[i]){ %>
+            <th style="color: green"> <%=draft[i]%></th>
+            <%}else { %>
+            <th style="color: red"> <%=draft[i]%></th>
+            <% } %>
+            <% } %>
+          </tr>
+        </table>
+      </p>
+
+      <h1>Your guess: </h1>
+
+
+      <p>
+        <table>
+          <table>
+            <tr>
+              <th>1.</th>
+              <th>2.</th>
+              <th>3.</th>
+              <th>4.</th>
+              <th>5.</th>
+              <th>6.</th>
+              <th>7.</th>
+            </tr>
+
+            <tr>
+              <% for (var i = 0; i < guess.length ; i++) { %>
+              <%if (guess[i] == draft[i]){ %>
+              <th style="color: green"> <%=guess[i]%></th>
+              <%}else { %>
+              <th style="color: red"> <%=guess[i]%></th>
+              <% } %>
+              <% } %>
+            </tr>
+          </table>
+        </table>
+      </p>
+
+      <h1>Number of correct guesses: <%=correct %></h1>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
